@@ -6,3 +6,6 @@ class FileTransactionDao(TransactionDao):
 
     def __init__(self, defaultTransactionID):
         super(FileTransactionDao, self).__init__(defaultTransactionID)
+
+    def getTransactionByDefID(self):
+        pass
